@@ -6,7 +6,7 @@ export const Header = () => (
   // </header>
   <div className="navbar bg-base-100">
     {/*<a className="btn btn-ghost text-xl" href="/">Selfie</a>*/}
-    <h1 className="text-3xl p-4">Selfie</h1>
+    <h1 className="text-3xl p-4">Vana Personal Server</h1>
     <div className="flex-grow"></div>
 
     <a className="mr-8 link link-hover" href="/docs" rel="noopener noreferrer">

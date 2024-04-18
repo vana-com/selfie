@@ -62,7 +62,7 @@ class SystemTrayApp(QApplication):
 
         self.setQuitOnLastWindowClosed(False)
         self.tray_icon = QSystemTrayIcon(self)
-        self.tray_icon.setIcon(QIcon("Selfie.icns"))
+        self.tray_icon.setIcon(QIcon("vana.png"))
 
         menu = QMenu()
 
@@ -117,10 +117,15 @@ class SystemTrayApp(QApplication):
 
     def update_service_icon(self, state):
         icon_paths = {
-            "starting": f"{selfie_path}/images/starting-tray.png",
-            "stopping": f"{selfie_path}/images/stopping-tray.png",
-            "started": f"{selfie_path}/images/started-tray.png",
-            "stopped": f"{selfie_path}/images/stopped-tray.png",
+            "starting": f"vana.png",
+            "stopping": f"vana.png",
+            "started": f"vana.png",
+            "stopped": f"vana.png",
+            # "starting": f"{selfie_path}/images/starting-tray.png",
+            # "stopping": f"{selfie_path}/images/stopping-tray.png",
+            # "started": f"{selfie_path}/images/started-tray.png",
+            # "stopped": f"{selfie_path}/images/stopped-tray.png",
+
         }
         self.tray_icon.setIcon(QIcon(icon_paths[state]))
 

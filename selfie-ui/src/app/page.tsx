@@ -53,7 +53,7 @@ const App = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </label>
-          <div className="flex-1 px-2 mx-2 text-2xl">Selfie</div>
+          <div className="flex-1 px-2 mx-2 text-2xl">Vana Personal Server</div>
         </div>
 
         {/* Page content here */}
@@ -78,7 +78,7 @@ const App = () => {
         {/* Sidebar content here */}
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
         <aside className="bg-base-300 min-h-screen">
-          <h1 className="lg:flex hidden px-4 pt-4 text-2xl">Selfie</h1>
+          <h1 className="lg:flex hidden px-4 pt-4 text-2xl">Vana Personal Server</h1>
           <ul className="menu p-4 overflow-y-auto w-60">
             {/* Sidebar content here */}
             { pages.map(({ id, component: Component }) => (
