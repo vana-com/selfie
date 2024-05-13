@@ -78,6 +78,6 @@ coll = COLLECT(
 
 app = BUNDLE(coll,
     name='Selfie.app',
-    icon='Selfie.icns',
+    icon='vana.png',
     bundle_identifier='com.vana.selfie',
 )
